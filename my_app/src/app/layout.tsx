@@ -32,9 +32,9 @@ export default function RootLayout({
       <body
         className={``}
       >
-        <Analytics/>
         <Navbar/>
         {children}
+        <Analytics/>
         <Footer/>
       </body>
     </html>
